@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR /thomas/src/app
+WORKDIR /nest-app/src/app
 
 COPY package*.json ./
 
