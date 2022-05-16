@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nest-app
+  name: product-service
 spec:
   selector:
-    app: nest-app
+    app: product-service
   ports:
     - protocol: TCP
       port: 8080
